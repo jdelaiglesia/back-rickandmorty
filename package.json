@@ -1,6 +1,6 @@
 {
   "name": "rick-and-morty-backend",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -21,17 +21,5 @@
     "nodemon": "^3.0.1",
     "pg": "^8.11.3",
     "sequelize": "^6.35.1"
-  },
-  "builds": [
-    {
-      "src": "./src/index.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/src/(.*)",
-      "dest": "/"
-    }
-  ]
+  }
 }
